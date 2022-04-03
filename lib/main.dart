@@ -133,7 +133,7 @@ class HomePage extends StatelessWidget {
             ),
             SizedBox(height: deviceHeight * 0.08),
             //Upload button
-            Container(
+            SizedBox(
               width: deviceWidth * 0.4,
               child: ElevatedButton(
                 onPressed: () {},
